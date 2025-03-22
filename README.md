@@ -85,3 +85,27 @@ Ensure scraped data is clean, well-formatted, and free from noise such as ads or
 - Provide before/after samples for comparison  
 
 ---
+### 4. Build a Balanced Dataset Generation Tool  
+**Objective:**  
+Create a tool that enables dataset generation with customizable balance and filtering parameters.  
+
+**Acceptance Criteria:**  
+- Tool allows selection by number, category, and balance  
+- Resulting datasets must pass balance tests  
+
+**Assumptions:**  
+- Cleaned Q&A data is stored in a searchable format  
+- Filtering rules can be user-defined  
+
+**Validation Plan:**  
+- Test with edge cases  
+- Analyze category distribution pre- and post-generation  
+- Collect developer feedback  
+
+**Tasks:**  
+- Design tool UI  
+- Implement filtering and balancing logic  
+- Integrate with categorized Q&A data  
+- Validate across multiple scenarios  
+
+---
